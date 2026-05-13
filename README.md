@@ -75,6 +75,6 @@ LangGraph의 `StateGraph`를 활용하여 에이전트 간의 제어 흐름(Cont
     ```
 2. **필수 패키지 설치**:
     ```bash
-    pip install langgraph langchain langchain-community
+    pip install langchain langgraph langchain-community chromadb sqlite-utils
     ```
 3. **코드 실행**: `langgraph-practice.ipynb` 파일을 열고 순서대로 셀을 실행합니다.
