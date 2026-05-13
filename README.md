@@ -49,7 +49,7 @@ LangGraph의 `StateGraph`를 활용하여 에이전트 간의 제어 흐름(Cont
 <img width="1165" height="243" alt="result_sample" src="https://github.com/user-attachments/assets/a614130c-6ed8-4839-91ca-b9055659f7cf" />
 
 <details>
-<summary>🔎 최종 응답 텍스트 보기 (클릭)</summary>
+<summary>🔎 텍스트로 보기 (클릭)</summary>
 
 ## 사용자 증상 및 추천 운동 목록
 
