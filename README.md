@@ -29,8 +29,7 @@ LangGraph를 공부하면서 만든 실습 프로젝트입니다.
 ## 📊 워크플로우 구조 (Workflow Structure)
 
 LangGraph의 `StateGraph`를 활용하여 에이전트 간의 제어 흐름(Control Flow)을 설계했습니다.
-
-![LangGraph Structure](./images/graph_structure.png)
+<img width="130" height="514" alt="graph_structure" src="https://github.com/user-attachments/assets/1139378d-23c1-44b3-b411-e07003ad9414" />
 
 > **진행 순서**: `START` → `추출 에이전트` → `후보 에이전트` → `답변 생성 에이전트` → `END`
 
@@ -41,26 +40,19 @@ LangGraph의 `StateGraph`를 활용하여 에이전트 간의 제어 흐름(Cont
 **질문 예시**: "체력이 안 좋고, 살이 계속 찌는데 어떤 운동을 할까?"
 
 각 에이전트의 파이프라인을 거쳐 출력된 최종 결과물입니다.
+<img width="1165" height="243" alt="result_sample" src="https://github.com/user-attachments/assets/a614130c-6ed8-4839-91ca-b9055659f7cf" />
 
-![Execution Result](./images/result_sample.png)
-
-### **출력 샘플**
-* **[증상]**: 체력 저하, 체중 증가 관리 필요
-* **[추천 운동]**: 
-    1. **스쿼트**: 하체 근력 강화 및 신진대사 촉진으로 체력 향상과 기초대사량 증가에 효과적입니다.
-    2. **플랭크**: 코어 근력 강화와 척추 안정성 향상에 도움을 주어 전반적인 자세 개선에 좋습니다.
-    3. **자전거 타기**: 관절에 무리 없이 유산소 운동을 진행할 수 있어 체지방 연소에 탁월합니다.
 
 ---
 
 ## 🚀 시작하기
 
-1.  **Ollama 설치**: [Ollama 공식 홈페이지](https://ollama.com/)에서 설치 후 로컬 모델을 실행합니다.
+1. **Ollama 설치**: [Ollama 공식 홈페이지](https://ollama.com/)에서 설치 후 로컬 모델을 실행합니다.
     ```bash
-    ollama run llama3.2
+    ollama pull exaone3.5:2.4b
     ```
-2.  **필수 패키지 설치**:
+2. **필수 패키지 설치**:
     ```bash
-    pip install langgraph langchain_community langchain_openai
+    pip install langgraph langchain langchain-community
     ```
-3.  **코드 실행**: `langgraph-practice.ipynb` 파일을 열고 환경 변수 설정 없이 로컬 베이스 경로(`http://localhost:11434/v1`)를 통해 실습을 진행합니다.
+3. **코드 실행**: `langgraph-practice.ipynb` 파일을 열고 순서대로 셀을 실행합니다.
