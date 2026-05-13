@@ -41,6 +41,7 @@ LangGraph의 `StateGraph`를 활용하여 에이전트 간의 제어 흐름(Cont
 **질문 예시**: "체력이 안 좋고, 살이 계속 찌는데 어떤 운동을 할까?"
 
 각 에이전트의 파이프라인을 거쳐 출력된 최종 결과물입니다.
+
 <img width="1165" height="243" alt="result_sample" src="https://github.com/user-attachments/assets/a614130c-6ed8-4839-91ca-b9055659f7cf" />
 
 
