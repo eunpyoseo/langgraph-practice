@@ -65,6 +65,8 @@ LangGraph의 `StateGraph`를 활용하여 에이전트 간의 제어 흐름(Cont
 5. **요가** : 유연성 향상 및 코어 근육 강화를 통해 자세 개선과 체지방 관리에 효과적입니다.
 </details>
 
+
+
 ## 🚀 시작하기
 
 1. **Ollama 설치**: [Ollama 공식 홈페이지](https://ollama.com/)에서 설치 후 로컬 모델을 실행합니다.
