@@ -23,7 +23,7 @@ LangGraph를 공부하면서 만든 실습 프로젝트입니다.
 | 구분 | 기술 |
 | :--- | :--- |
 | **Framework** | LangChain, LangGraph |
-| **LLM (Local)** | Ollama (Llama 3.2 등) |
+| **LLM (Local)** | Ollama (exaone3.5:2.4b) |
 | **Language** | Python 3 |
 | **Environment** | Jupyter Notebook (.ipynb) |
 
