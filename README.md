@@ -31,6 +31,9 @@ LangGraph를 공부하면서 만든 실습 프로젝트입니다.
 LangGraph의 `StateGraph`를 활용하여 에이전트 간의 제어 흐름(Control Flow)을 설계했습니다.
 <img width="130" height="514" alt="graph_structure" src="https://github.com/user-attachments/assets/1139378d-23c1-44b3-b411-e07003ad9414" />
 
+![graph_structure](https://github.com/user-attachments/assets/1139378d-23c1-44b3-b411-e07003ad9414)
+
+
 > **진행 순서**: `START` → `추출 에이전트` → `후보 에이전트` → `답변 생성 에이전트` → `END`
 
 ---
