@@ -31,7 +31,7 @@ LangGraph를 공부하면서 만든 실습 프로젝트입니다.
 LangGraph의 `StateGraph`를 활용하여 에이전트 간의 제어 흐름(Control Flow)을 설계했습니다.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/1fbcae78-44e2-404b-aeed-7c46dd61643c" width='13-' alt="graph_structure" />
+  <img src="https://github.com/user-attachments/assets/1fbcae78-44e2-404b-aeed-7c46dd61643c" width='130' alt="graph_structure" />
 </div>
 
 
